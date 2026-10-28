@@ -1,0 +1,170 @@
+{
+  "config": {
+    "event_name": "SHOOT2CODE",
+    "tagline": "Aim. Launch. Innovate. Conquer.",
+    "start_date": "",
+    "end_date": "",
+    "registration_deadline": "",
+    "venue": "",
+    "format": "To be announced",
+    "min_team_size": null,
+    "max_team_size": null,
+    "capacity": null,
+    "registration_open": true,
+    "event_email": "",
+    "organizer": ""
+  },
+  "missions": [
+    {
+      "id": "S2C-101",
+      "title": "Make campus life flow",
+      "category": "Web Development",
+      "difficulty": "Medium",
+      "description": "Reimagine one everyday campus process that wastes people's time. Build a clear, accessible digital experience that makes the next step obvious.",
+      "skills": [
+        "React",
+        "UX",
+        "APIs"
+      ],
+      "deliverables": [
+        "Working prototype",
+        "Short demo",
+        "README"
+      ],
+      "evaluation": [
+        "Impact",
+        "Usability",
+        "Technical execution",
+        "Originality"
+      ],
+      "constraints": [
+        "Use sample data only; do not expose real student records."
+      ],
+      "use_cases": [
+        "Finding an available study space",
+        "Getting a campus service update"
+      ],
+      "outcomes": [
+        "A testable prototype and a clear plan for a responsible pilot."
+      ],
+      "status": "Open",
+      "sample": true
+    },
+    {
+      "id": "S2C-102",
+      "title": "Less waste, better days",
+      "category": "Sustainability",
+      "difficulty": "Easy",
+      "description": "Help a community spot a small, measurable opportunity to reduce waste or make a shared resource go further.",
+      "skills": [
+        "Data",
+        "Mobile",
+        "Prototyping"
+      ],
+      "deliverables": [
+        "Working prototype",
+        "Impact hypothesis",
+        "Short demo"
+      ],
+      "evaluation": [
+        "Practical impact",
+        "Clarity",
+        "Feasibility",
+        "Craft"
+      ],
+      "constraints": [
+        "Do not claim measured environmental savings without evidence."
+      ],
+      "use_cases": [
+        "Reuse exchange",
+        "Resource-use awareness"
+      ],
+      "outcomes": [
+        "A prototype and a simple way to measure its intended impact."
+      ],
+      "status": "Open",
+      "sample": true
+    },
+    {
+      "id": "S2C-103",
+      "title": "Open Innovation",
+      "category": "Open Innovation",
+      "difficulty": "Hard",
+      "description": "Bring a problem worth solving. Define who experiences it, show why current approaches fall short, and propose a thoughtful, testable solution.",
+      "skills": [
+        "Research",
+        "Product thinking",
+        "Any stack"
+      ],
+      "deliverables": [
+        "Problem brief",
+        "Working prototype",
+        "Short demo"
+      ],
+      "evaluation": [
+        "Problem understanding",
+        "Originality",
+        "Impact",
+        "Execution"
+      ],
+      "constraints": [
+        "An organizer must approve the problem framing before the team proceeds."
+      ],
+      "use_cases": [
+        "A problem from your community, workplace, or campus."
+      ],
+      "outcomes": [
+        "An organizer-reviewed idea and a demonstrable first solution."
+      ],
+      "status": "Open",
+      "sample": true
+    }
+  ],
+  "registrations": [],
+  "teams": [],
+  "schedule": [
+    {
+      "title": "Registration & team formation",
+      "time": "To be announced",
+      "detail": "Form your flock and choose a mission."
+    },
+    {
+      "title": "Opening & mission briefing",
+      "time": "To be announced",
+      "detail": "Get the lay of the land before launch."
+    },
+    {
+      "title": "Build session",
+      "time": "To be announced",
+      "detail": "Turn a bold idea into a working prototype."
+    },
+    {
+      "title": "Demos & recognition",
+      "time": "To be announced",
+      "detail": "Show what you made and celebrate the flock."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Who can take part?",
+      "answer": "SHOOT2CODE is an internal event. Eligibility details will be shared by the organizers."
+    },
+    {
+      "question": "Do we need a finished idea to register?",
+      "answer": "No. Pick a mission to get started, or propose an Open Innovation idea for organizer approval."
+    },
+    {
+      "question": "What should we bring?",
+      "answer": "Bring a laptop, your usual development tools, and a willingness to test ideas. Venue and format details will be confirmed by organizers."
+    },
+    {
+      "question": "How are projects judged?",
+      "answer": "Projects are reviewed for impact, originality, usability, and technical execution. Mission-specific criteria appear on each mission card."
+    }
+  ],
+  "admin": {
+    "email": "admin@shoot2code.local",
+    "salt": "c0d9f17c2772a5122dcfc55ed949564a",
+    "password_hash": "31b1e70554720f40ecc77faeb41841ff7e3f0f542059dd4cada1afcffc89600f"
+  }
+}

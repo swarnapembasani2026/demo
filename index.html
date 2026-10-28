@@ -1,0 +1,220 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#d8f3ff">
+  <meta name="description" content="Aim. Launch. Innovate. Conquer. Join SHOOT2CODE, the internal hackathon where bold ideas become legendary builds.">
+  <title>SHOOT2CODE — Aim. Launch. Innovate. Conquer.</title>
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="/styles.css">
+  <script src="/app.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <a class="brand" href="#home" aria-label="SHOOT2CODE home">
+      <span class="brand-mark" aria-hidden="true"><span></span><i></i></span>
+      <span class="brand-word">SHOOT<span>2</span>CODE<small>INTERNAL HACKATHON</small></span>
+    </a>
+    <button class="menu-toggle" aria-label="Open navigation" aria-expanded="false"><span></span><span></span></button>
+    <nav class="main-nav" aria-label="Main navigation">
+      <a href="#home">Home</a><a href="#missions">Missions</a><a href="#flock">Teams &amp; Projects</a>
+      <a href="#guidelines">Guidelines</a><a href="#schedule">Schedule</a><a href="#faq">FAQ</a>
+    </nav>
+    <div class="nav-actions">
+      <button class="text-button" data-open-login>Organizer login</button>
+      <a class="button button-small button-red" href="#register">Join the flock <span aria-hidden="true">↗</span></a>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="hero" id="home">
+      <div class="hero-cloud cloud-one" aria-hidden="true"></div><div class="hero-cloud cloud-two" aria-hidden="true"></div>
+      <div class="hero-copy">
+        <div class="eyebrow"><span class="live-dot"></span> THE INTERNAL HACKATHON</div>
+        <h1>READY,<br><span>AIM,</span> CODE<span class="period">!</span></h1>
+        <p class="hero-tagline" id="hero-tagline">Aim. Launch. Innovate. Conquer.</p>
+        <p class="hero-description">One hackathon. Big ideas. Zero limits. Assemble your squad, choose your mission, and build something legendary.</p>
+        <div class="hero-actions">
+          <a class="button button-red" href="#register">Register your team <span aria-hidden="true">↗</span></a>
+          <a class="button button-ghost" href="#missions"><span class="play-icon" aria-hidden="true">▶</span> Explore missions</a>
+        </div>
+        <div class="hero-note"><span class="note-stars" aria-hidden="true">✦ ✦ ✦</span> New ideas. Friendly rivalry. Real impact.</div>
+      </div>
+      <div class="hero-art" role="img" aria-label="An original bird mascot launches toward a playful tower of blocks and green targets">
+        <div class="sun-disc"></div>
+        <div class="art-cloud art-cloud-a"></div><div class="art-cloud art-cloud-b"></div>
+        <div class="distant-hill"></div>
+        <div class="block-tower">
+          <div class="wood-block wood-top"><span>MAKE</span></div>
+          <div class="stone-block stone-left"><i></i></div><div class="stone-block stone-right"><i></i></div>
+          <div class="pig-target pig-one"><span class="pig-ear"></span><span class="pig-eye left"></span><span class="pig-eye right"></span><span class="pig-snout"></span></div>
+          <div class="wood-block wood-mid"></div><div class="stone-block stone-base"></div>
+          <div class="pig-target pig-two"><span class="pig-ear"></span><span class="pig-eye left"></span><span class="pig-eye right"></span><span class="pig-snout"></span></div>
+        </div>
+        <div class="slingshot"><span class="sling-band"></span></div>
+        <div class="hero-bird"><span class="bird-feather"></span><span class="bird-eye"></span><span class="bird-beak"></span><span class="bird-wing"></span></div>
+        <div class="flight-path" aria-hidden="true"><i></i><i></i><i></i><i></i></div>
+        <div class="art-star star-one">✦</div><div class="art-star star-two">✦</div><div class="art-star star-three">✧</div>
+        <div class="art-ground"></div>
+        <div class="art-caption"><span class="caption-icon">↗</span><span>YOUR NEXT BIG IDEA<br><b>STARTS RIGHT HERE</b></span></div>
+      </div>
+      <div class="hero-bottom">
+        <div class="countdown-wrap">
+          <div class="countdown-heading"><span class="countdown-icon">◷</span><div><b>COUNTDOWN TO LAUNCH</b><small id="countdown-status">Event date to be announced</small></div></div>
+          <div class="countdown" aria-label="Countdown to event start">
+            <div><strong id="days">--</strong><span>DAYS</span></div><i>:</i><div><strong id="hours">--</strong><span>HOURS</span></div><i>:</i><div><strong id="minutes">--</strong><span>MINS</span></div><i>:</i><div><strong id="seconds">--</strong><span>SECS</span></div>
+          </div>
+        </div>
+        <div class="hero-scribble">BIG IDEAS<br>HIT DIFFERENT <span>↘</span></div>
+      </div>
+      <div class="hero-grass" aria-hidden="true"></div>
+    </section>
+
+    <section class="event-strip" aria-label="Event information">
+      <div class="event-fact"><span class="fact-icon fact-red">◷</span><div><small>EVENT DATES</small><strong id="event-dates">January · To be announced</strong></div></div>
+      <div class="event-fact"><span class="fact-icon fact-yellow">⌖</span><div><small>WHERE WE LAUNCH</small><strong id="event-venue">Format &amp; venue to be announced</strong></div></div>
+      <div class="event-fact"><span class="fact-icon fact-green">♟</span><div><small>TEAM SIZE</small><strong id="event-team-size">Set by organizers</strong></div></div>
+      <div class="event-fact"><span class="fact-icon fact-blue">⚑</span><div><small>REGISTRATION CLOSES</small><strong id="event-deadline">To be announced</strong></div></div>
+    </section>
+
+    <section class="intro section-pad">
+      <div class="section-kicker">A LITTLE FRIENDLY COMPETITION</div>
+      <div class="intro-grid">
+        <h2>Big problems.<br><span>Bigger launches.</span></h2>
+        <div class="intro-copy"><p>SHOOT2CODE is a chance to bring your best people, pick a challenge, and turn a what-if into a working prototype. No perfect plans needed—just curiosity, collaboration, and the nerve to press build.</p><p>Whether you love untangling data, designing delightful experiences, or making the impossible run, there’s a place in the flock for you.</p><a class="inline-link" href="#guidelines">Get to know the game <span>↗</span></a></div>
+      </div>
+    </section>
+
+    <div class="ticker" aria-label="Think bold, build fast, break barriers, ship innovation">
+      <div class="ticker-track"><span>THINK BOLD <i>✦</i></span><span>BUILD FAST <i>✦</i></span><span>BREAK BARRIERS <i>✦</i></span><span>SHIP INNOVATION <i>✦</i></span><span>THINK BOLD <i>✦</i></span><span>BUILD FAST <i>✦</i></span><span>BREAK BARRIERS <i>✦</i></span><span>SHIP INNOVATION <i>✦</i></span></div>
+    </div>
+
+    <section class="missions-section section-pad" id="missions">
+      <div class="section-heading">
+        <div><div class="section-kicker">PICK YOUR BATTLE</div><h2>Mission <span>select.</span></h2><p>Real-world challenges. Your team's way of solving them.</p></div>
+        <a class="inline-link" href="#register">Choose your mission <span>↗</span></a>
+      </div>
+      <div class="mission-controls">
+        <label class="search-box"><span aria-hidden="true">⌕</span><input id="mission-search" type="search" placeholder="Search missions..." aria-label="Search missions"></label>
+        <label class="select-wrap"><span class="visually-hidden">Category</span><select id="category-filter"><option value="">All categories</option></select></label>
+        <label class="select-wrap"><span class="visually-hidden">Difficulty</span><select id="difficulty-filter"><option value="">Any difficulty</option><option>Easy</option><option>Medium</option><option>Hard</option></select></label>
+        <label class="select-wrap"><span class="visually-hidden">Sort missions</span><select id="mission-sort"><option value="featured">Featured first</option><option value="title">Title A–Z</option><option value="difficulty">Difficulty</option></select></label>
+      </div>
+      <div class="mission-grid" id="mission-grid" aria-live="polite"></div>
+      <div class="empty-state hidden" id="mission-empty">No missions match that search. Try another filter.</div>
+      <div class="mission-footnote"><span>✦</span> Have your own big idea? Open Innovation is always on the board—subject to organizer approval.</div>
+    </section>
+
+    <section class="flock-section section-pad" id="flock">
+      <div class="section-heading">
+        <div><div class="section-kicker">THE FLOCK IS FORMING</div><h2>Teams &amp; <span>projects.</span></h2><p>Meet the people turning their ideas into things.</p></div>
+        <a class="button button-dark" href="#register">Meet the flock <span>↗</span></a>
+      </div>
+      <div class="flock-layout">
+        <div class="team-grid" id="team-grid" aria-live="polite"></div>
+        <aside class="leaderboard">
+          <div class="leaderboard-top"><span class="trophy-icon">♛</span><div><small>THE SCOREBOARD</small><h3>Leaderboard</h3></div><span class="live-label">LIVE</span></div>
+          <div id="leaderboard-list" class="leaderboard-list"></div>
+          <p class="leaderboard-note">Scores appear after organizers publish approved project results.</p>
+        </aside>
+      </div>
+      <div id="team-empty" class="empty-state">The flock is getting ready. Be the first team to register.</div>
+    </section>
+
+    <section class="rewards-section">
+      <div class="rewards-decoration deco-star">✦</div><div class="rewards-decoration deco-circle"></div>
+      <div class="rewards-copy"><div class="section-kicker light-kicker">NOT JUST BRAGGING RIGHTS</div><h2>Build it.<br><span>Own the moment.</span></h2><p>Bring your best work to the spotlight. Standout teams earn recognition, bragging rights, and rewards announced by the organizers.</p><a href="#register" class="button button-yellow">I'm in <span>↗</span></a></div>
+      <div class="prize-cards" aria-label="Recognition categories">
+        <div class="prize-card prize-first"><span class="prize-number">01</span><span class="prize-symbol">✦</span><b>TOP LAUNCH</b><small>For a standout solution</small></div>
+        <div class="prize-card prize-second"><span class="prize-number">02</span><span class="prize-symbol">⚡</span><b>BOLD THINKING</b><small>For a fresh perspective</small></div>
+        <div class="prize-card prize-third"><span class="prize-number">03</span><span class="prize-symbol">♥</span><b>FLOCK FAVORITE</b><small>For people-first impact</small></div>
+        <p class="prize-note">Categories shown are illustrative. Final awards and rewards are set by organizers.</p>
+      </div>
+    </section>
+
+    <section class="register-section section-pad" id="register">
+      <div class="register-intro"><div class="section-kicker">YOUR SQUAD. YOUR SHOT.</div><h2>Ready to make<br><span>some noise?</span></h2><p>Start a team or join your crew with an invite code. Registration details are only shared with event organizers.</p><div class="register-perks"><div><span>01</span><b>Pick a mission</b></div><div><span>02</span><b>Assemble your flock</b></div><div><span>03</span><b>Build something legendary</b></div></div></div>
+      <div class="register-card">
+        <div class="registration-tabs" role="tablist" aria-label="Registration option"><button class="registration-tab active" role="tab" aria-selected="true" data-tab="create">Create a team</button><button class="registration-tab" role="tab" aria-selected="false" data-tab="join">Join a team</button><button class="registration-tab" role="tab" aria-selected="false" data-tab="lookup">Check status</button></div>
+        <form id="create-form" class="registration-form" novalidate>
+          <div class="form-heading"><span class="form-step">01 / TEAM LEAD</span><h3>Claim your launchpad.</h3></div>
+          <div class="form-row"><label>Full name<input name="name" autocomplete="name" required maxlength="100" placeholder="Your name"></label><label>Institutional / work email<input name="email" type="email" autocomplete="email" required maxlength="254" placeholder="you@organization.edu"></label></div>
+          <div class="form-row"><label>Registration / employee ID <span class="optional">(optional)</span><input name="institution_id" maxlength="80" placeholder="Your ID"></label><label>Department / division<input name="department" required maxlength="100" placeholder="Where you work or study"></label></div>
+          <div class="form-row"><label>Year / role <span class="optional">(optional)</span><input name="role" maxlength="100" placeholder="e.g. Year 2, Analyst"></label><label>Contact number <span class="optional">(optional)</span><input name="phone" type="tel" maxlength="30" placeholder="+00 0000 000000"></label></div>
+          <div class="form-row"><label>Team name<input name="team_name" required maxlength="80" placeholder="Give your flock a name"></label><label>Problem statement<select name="mission_id" id="register-mission" required><option value="">Choose an open mission</option></select></label></div>
+          <label>Other team members <span class="optional">(optional — one per line: name, email)</span><textarea name="members" rows="3" placeholder="Alex Rivera, alex@organization.edu&#10;Sam Lee, sam@organization.edu"></textarea></label>
+          <div class="form-row"><label>Project idea title <span class="optional">(optional)</span><input name="project_title" maxlength="100" placeholder="A working title"></label><label>Skills &amp; technologies <span class="optional">(optional)</span><input name="skills" maxlength="200" placeholder="e.g. Python, UX, data"></label></div>
+          <label>What are you thinking? <span class="optional">(optional)</span><textarea name="project_summary" rows="2" maxlength="1000" placeholder="A sentence or two about your idea"></textarea></label>
+          <label class="consent"><input name="consent" type="checkbox" required><span>I agree to the <a href="#guidelines">event guidelines</a> and have read the <a href="#privacy">privacy notice</a>.</span></label>
+          <div class="form-message" role="status" aria-live="polite"></div>
+          <button class="button button-red button-wide" type="submit">Launch registration <span>↗</span></button>
+          <p class="form-fineprint">A unique registration ID and team invitation code will be shown after submission.</p>
+        </form>
+        <form id="join-form" class="registration-form hidden" novalidate>
+          <div class="form-heading"><span class="form-step">JOIN YOUR CREW</span><h3>There's room in the nest.</h3></div>
+          <label>Your full name<input name="name" required maxlength="100" autocomplete="name" placeholder="Your name"></label>
+          <label>Institutional / work email<input name="email" type="email" required maxlength="254" autocomplete="email" placeholder="you@organization.edu"></label>
+          <label>Team invitation code<input name="invite_code" required maxlength="40" placeholder="Ask your team lead"></label>
+          <label class="consent"><input name="consent" type="checkbox" required><span>I agree to the <a href="#guidelines">event guidelines</a> and have read the <a href="#privacy">privacy notice</a>.</span></label>
+          <div class="form-message" role="status" aria-live="polite"></div>
+          <button class="button button-red button-wide" type="submit">Join the flock <span>↗</span></button>
+        </form>
+        <form id="lookup-form" class="registration-form hidden" novalidate>
+          <div class="form-heading"><span class="form-step">REGISTRATION DESK</span><h3>Find your status.</h3></div>
+          <label>Registration ID<input name="id" required placeholder="S2C-XXXXXXXX"></label>
+          <div class="form-message" role="status" aria-live="polite"></div>
+          <button class="button button-red button-wide" type="submit">Check registration <span>↗</span></button>
+        </form>
+        <div class="registration-closed hidden" id="registration-closed"><span>⏱</span><h3>Registration is closed.</h3><p>Keep an eye out for the next launch.</p></div>
+      </div>
+    </section>
+
+    <section class="schedule-section section-pad" id="schedule">
+      <div class="section-heading">
+        <div><div class="section-kicker">THE GAME PLAN</div><h2>Save your <span>energy.</span></h2><p>The event timeline will be confirmed by the organizers.</p></div>
+      </div>
+      <div class="schedule-track" id="schedule-track"></div>
+    </section>
+
+    <section class="guidelines-section section-pad" id="guidelines">
+      <div class="guidelines-heading"><div class="section-kicker">PLAY FAIR. PLAY BOLD.</div><h2>Good game<br><span>starts here.</span></h2><p>Big swings are encouraged. Respect for people, privacy, and the rules is non-negotiable.</p><a href="#register" class="inline-link">I can play by those rules <span>↗</span></a></div>
+      <div class="guideline-list">
+        <article><span>01</span><div><h3>Build with your team</h3><p>Submit work created by your registered team during the event. Credit collaborators and disclose any third-party tools or code you use.</p></div></article>
+        <article><span>02</span><div><h3>Respect the boundaries</h3><p>Use only systems and data you are authorized to access. Never test security on real services, accounts, or personal data.</p></div></article>
+        <article><span>03</span><div><h3>Keep it kind</h3><p>Make room for different voices. Harassment, discrimination, or unsafe conduct is not part of the game; organizers may remove participants who violate the code of conduct.</p></div></article>
+        <article><span>04</span><div><h3>Make your demo accessible</h3><p>Explain what your project does, who it helps, and what you built. Be honest about limitations and what still needs work.</p></div></article>
+      </div>
+    </section>
+
+    <section class="faq-section section-pad" id="faq">
+      <div class="faq-heading"><div class="section-kicker">STILL CURIOUS?</div><h2>Quick-fire <span>answers.</span></h2><p>Something else on your mind? Reach out to the organizers.</p><a class="inline-link" href="#contact">Talk to the organizers <span>↗</span></a></div>
+      <div class="faq-list" id="faq-list"></div>
+    </section>
+
+    <section class="privacy-band" id="privacy"><span class="privacy-icon">◈</span><p><b>Your details stay in the game.</b> Registration information is used by event organizers to manage participation and contact teams about the hackathon. It is not shown in the public team directory. Contact the organizers to request an update or removal.</p></section>
+  </main>
+
+  <footer class="site-footer" id="contact">
+    <div class="footer-main">
+      <div class="footer-brand"><a class="brand brand-light" href="#home"><span class="brand-mark" aria-hidden="true"><span></span><i></i></span><span class="brand-word">SHOOT<span>2</span>CODE<small>INTERNAL HACKATHON</small></span></a><p>Aim. Launch. Innovate. Conquer.<br>Make a little noise. Make a real difference.</p></div>
+      <div class="footer-col"><small>EXPLORE</small><a href="#missions">Missions</a><a href="#flock">Teams &amp; Projects</a><a href="#schedule">Schedule</a><a href="#faq">FAQ</a></div>
+      <div class="footer-col"><small>THE DETAILS</small><a href="#guidelines">Event guidelines</a><a href="#privacy">Privacy notice</a><a href="#register">Registration</a></div>
+      <div class="footer-contact"><small>YOUR ORGANIZERS</small><p id="organizer-name">SHOOT2CODE Organizing Team</p><a id="organizer-email" href="mailto:">Contact details to be announced</a><button class="footer-login" data-open-login>Organizer sign in <span>↗</span></button></div>
+    </div>
+    <div class="footer-bottom"><span>© <span id="current-year"></span> SHOOT2CODE · Made for builders, by builders.</span><span>Original artwork. Friendly competition. No pigs were harmed.</span></div>
+  </footer>
+
+  <dialog class="modal" id="mission-modal" aria-labelledby="modal-title"><button class="modal-close" aria-label="Close dialog">×</button><div id="mission-modal-content"></div></dialog>
+  <dialog class="modal success-modal" id="success-modal" aria-labelledby="success-title"><button class="modal-close" aria-label="Close dialog">×</button><div id="success-content"></div></dialog>
+  <dialog class="modal login-modal" id="login-modal" aria-labelledby="login-title"><button class="modal-close" aria-label="Close dialog">×</button><div class="section-kicker">ORGANIZER ACCESS</div><h2 id="login-title">Admin <span>launchpad.</span></h2><p>Sign in to manage missions, registrations, projects, and event settings.</p><form id="login-form"><label>Email<input name="email" type="email" autocomplete="username" required></label><label>Password<input name="password" type="password" autocomplete="current-password" required></label><div class="form-message" role="status" aria-live="polite"></div><button class="button button-red button-wide" type="submit">Sign in <span>↗</span></button></form></dialog>
+  <dialog class="modal admin-modal" id="admin-modal" aria-labelledby="admin-title">
+    <button class="modal-close" aria-label="Close dialog">×</button>
+    <div class="admin-heading"><div><div class="section-kicker">ORGANIZER CONSOLE</div><h2 id="admin-title">Control <span>room.</span></h2></div><button class="button button-ghost button-small" id="admin-logout">Sign out</button></div>
+    <div class="admin-tabs" role="tablist" aria-label="Admin sections"><button class="admin-tab active" data-admin-tab="overview">Overview</button><button class="admin-tab" data-admin-tab="missions">Missions</button><button class="admin-tab" data-admin-tab="registrations">Teams</button><button class="admin-tab" data-admin-tab="projects">Projects</button><button class="admin-tab" data-admin-tab="schedule">Schedule &amp; FAQ</button><button class="admin-tab" data-admin-tab="settings">Event settings</button></div>
+    <div class="admin-content" id="admin-content"></div>
+  </dialog>
+  <div class="toast-region" aria-live="polite" aria-atomic="true"></div>
+</body>
+</html>
